@@ -17,6 +17,11 @@ Put these files on a host. Then, use any modern web browser to open them.
    $ python -m SimpleHTTPServer
    Serving HTTP on 0.0.0.0 port 8000 ...
    ```
+   Or just run this Docker image:
+   
+   ```
+   $ docker run -d williamyeh/docker-mini
+   ```
 
 2. Use any modern web browser to connect to the server's document root, e.g.,
 
